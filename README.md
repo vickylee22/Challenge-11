@@ -48,9 +48,9 @@ To do so, complete the following steps:
 
 3. Create a new column in the DataFrame named “Lagged Search Trends” that offsets, or shifts, the search traffic by one hour. Create two additional columns:
 
-  - “Stock Volatility”, which holds an exponentially weighted four-hour rolling average of the company’s stock volatility
+   - “Stock Volatility”, which holds an exponentially weighted four-hour rolling average of the company’s stock volatility
 
-  - “Hourly Stock Return”, which holds the percent change of the company's stock price on an hourly basis
+   - “Hourly Stock Return”, which holds the percent change of the company's stock price on an hourly basis
 
 4. Review the time series correlation, and then answer the following question: Does a predictable relationship exist between the lagged search traffic and the stock volatility or between the lagged search traffic and the stock price returns?
 
@@ -63,11 +63,11 @@ Now, you need to produce a time series model that analyzes and forecasts pattern
 
 3. Plot the individual time series components of the model to answer the following questions:
 
-  - What time of day exhibits the greatest popularity?
+   - What time of day exhibits the greatest popularity?
 
-  - Which day of the week gets the most search traffic?
-
-  - What's the lowest point for search traffic in the calendar year?
+   - Which day of the week gets the most search traffic?
+  
+   - What's the lowest point for search traffic in the calendar year?
 
 ## **Step 5 (Optional): Forecast Revenue by Using Time Series Models**
 A few weeks after your initial analysis, the finance group follows up to find out if you can help them solve a different problem. Your fame as a growth analyst in the company continues to grow!
